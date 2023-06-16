@@ -1,0 +1,28 @@
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid;
+  height: 15px;
+  width: 40vw;
+  text-align: left;
+  vertical-align: auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+th {
+  text-align: center;
+}
+th,
+td {
+  padding: 10px;
+  border-bottom: 2px solid gray;
+}
+tr:hover :not(th) {
+  background-color: beige;
+}
+
+body p:first-of-type {
+  font-size: 9px;
+}
