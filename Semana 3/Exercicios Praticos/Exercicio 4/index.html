@@ -9,26 +9,30 @@
 </head>
 
 <body>
-  <h1>Formalário de Cadastro</h1>
-  <div>
-    <p>Preencha os dados</p>
-    <form action="">
-      <label for="complete_name">Nome completo</label>
-      <input id="complete_name" type="text">
-      <label for="birth_date">Data de nascimento</label>
-      <input id="birth_date" type="date">
-      <label for="document">CPF</label>
-      <input id="document" type="text">
-      <label for="city">Cidade</label>
-      <select id="city">
-        <option value="">Selecione</option>
-        <option value="">São Paulo</option>
-        <option value="">Rio de Janeiro</option>
-        <option value="">Porto Alegre</option>
-        <option value="">Santa Cataria</option>
-        <option value="">Vitória</option>
-        <option value="">Campo Grande</option>
-      </select>
+  <h1>Formulário de Cadastro</h1>
+  <div class="form_container">
+    <p class="form_title">Preencha os dados</p>
+    <form class="form" action="">
+      <div class="form_left">
+        <label for="complete_name">Nome completo</label>
+        <label for="birth_date">Data de nascimento</label>
+        <label for="document">CPF</label>
+        <label for="city">Cidade</label>
+      </div>
+      <div class="form_right">
+        <input id="complete_name" type="text">
+        <input id="birth_date" type="date">
+        <input id="document" type="text">
+        <select id="city">
+          <option value="">Selecione</option>
+          <option value="">São Paulo</option>
+          <option value="">Rio de Janeiro</option>
+          <option value="">Porto Alegre</option>
+          <option value="">Santa Cataria</option>
+          <option value="">Vitória</option>
+          <option value="">Campo Grande</option>
+        </select>
+      </div>
     </form>
   </div>
 </body>
