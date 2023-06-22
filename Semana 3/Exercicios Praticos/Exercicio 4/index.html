@@ -10,31 +10,37 @@
 
 <body>
   <h1>Formulário de Cadastro</h1>
-  <div class="form_container">
-    <p class="form_title">Preencha os dados</p>
-    <form class="form" action="">
-      <div class="form_left">
-        <label for="complete_name">Nome completo</label>
-        <label for="birth_date">Data de nascimento</label>
-        <label for="document">CPF</label>
-        <label for="city">Cidade</label>
-      </div>
-      <div class="form_right">
-        <input id="complete_name" type="text">
-        <input id="birth_date" type="date">
-        <input id="document" type="text">
-        <select id="city">
-          <option value="">Selecione</option>
-          <option value="">São Paulo</option>
-          <option value="">Rio de Janeiro</option>
-          <option value="">Porto Alegre</option>
-          <option value="">Santa Cataria</option>
-          <option value="">Vitória</option>
-          <option value="">Campo Grande</option>
-        </select>
-      </div>
+  <fieldset class="container">
+    <legend class="form_title">Preencha os dados</legend>
+    <div class="form_container">
+      <form class="form" action="">
+        <div class="form_left">
+          <label for="complete_name">Nome completo</label>
+          <label for="birth_date">Data de nascimento</label>
+          <label for="document">CPF</label>
+          <label for="city">Cidade</label>
+        </div>
+        <div class="form_right">
+          <input type="text">
+          <input type="date">
+          <input type="text">
+          <select>
+            <option value="">Selecione</option>
+            <option value="">São Paulo</option>
+            <option value="">Rio de Janeiro</option>
+            <option value="">Porto Alegre</option>
+            <option value="">Santa Cataria</option>
+            <option value="">Vitória</option>
+            <option value="">Campo Grande</option>
+          </select>
+        </div>
+
+    </div>
     </form>
-  </div>
+    <div>
+      <a class="botao" href="">Cadastrar</a>
+    </div>
+  </fieldset>
 </body>
 
 </html>
