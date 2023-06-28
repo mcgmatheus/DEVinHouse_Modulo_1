@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/lanchonete.css">
+  <title>DiH S4Ex8 | Lanchonete</title>
+</head>
+
+<body>
+  <header class="menuSuperior">
+    <div class="menuContainer">
+      <nav>
+        <div class="logotipo">
+          <img src="" alt="Logo">
+        </div>
+        <div class="navSuperior">
+          <a href="">Cardápio</a>
+          <a href="">Pedidos Online</a>
+          <a href="">Sobre Nós</a>
+          <a href="">Localização</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div id="containerInicioPedido">
+      <div class="inicioPedido">
+        <div class="pedidoCabecalho">
+          <h1>Lanchonete Online</h1>
+          <p>Bem vindo a nosso sistema de pedidos Online!</p>
+        </div>
+        <div class="tabelaProdutos">
+          <table>
+            <tr>
+              <td>Código</td>
+              <td>Produto</td>
+              <td>Valor</td>
+            </tr>
+            <tr>
+              <td>1123</td>
+              <td>Hambúrguer</td>
+              <td>R$ 12.00</td>
+            </tr>
+            <tr>
+              <td>1134</td>
+              <td>Sanduíche de Pernil</td>
+              <td>R$ 9.00</td>
+            </tr>
+            <tr>
+              <td>4521</td>
+              <td>Bauru</td>
+              <td>R$ 15.00</td>
+            </tr>
+            <tr>
+              <td>5322</td>
+              <td>Lanche de Mortadela</td>
+              <td>R$ 34.99</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div>
+        <form class="compraProdutos" action="">
+          <input autofocus type="text" placeholder="Código do Produto" id="codProduto">
+          <input type="number" min="0" placeholder="Quantidade" id="produtoQtd">
+          <button type="button" class="fazPedido" onclick=clicaPedido()>Realizar Pedido</button>
+        </form>
+      </div>
+    </div> <!--Fim da tela de Incicio do pedido-->
+
+    <div hidden id="containerNovoPedido">
+      <div class="finalizaPedido">
+        <div class="pedidoCabecalho">
+          <h1 id="resultado"></h1>
+          <p id="agradece">Agradecemos sua compra!</p>
+          <button type="button" class="fazPedido" onclick=clicaNovoPedido()>Novo pedido</button>
+        </div>
+      </div> <!--Fim da tela de Finalização do pedido-->
+    </div>
+  </main>
+
+  <script src="/scripts/lanchonete.js"></script>
+
+  <footer>
+    <p class="logo_text">Lanchonete Online</p>
+    <p>&copy 2023 Lanchonete Online &middot; Rua Lugar Algum N°2525 &middot Centro &middot Mogi Guaçu - SP.</p>
+  </footer>
+</body>
+
+</html>
