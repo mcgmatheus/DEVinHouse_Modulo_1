@@ -1,0 +1,21 @@
+:root {
+  margin: 50px;
+  margin-top: 0px;
+}
+
+.fullscreen_image {
+  /* display: block;
+  margin-left: 0px;
+  margin-right: auto; */
+  border-radius: 5px;
+  width: 25vw;
+  border: 5px solid lightgray;
+  border-style: none;
+  box-sizing: border-box;
+}
+
+/* .fullscreen_image.subtitle {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+} */
