@@ -1,0 +1,36 @@
+img {
+  width: 300px;
+}
+.container {
+  display: flex;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 40%;
+  margin: 0 auto;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+input {
+  height: 36px;
+  width: 80%;
+  border-radius: 18px;
+}
+.login {
+  height: 36px;
+  width: 80%;
+  background-color: #4bb4f8;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 18px;
+}
+.login:hover {
+  background-color: blue;
+}
+.input_error {
+  border: 1px solid red;
+}
